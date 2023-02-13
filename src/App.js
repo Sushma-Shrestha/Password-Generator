@@ -92,7 +92,7 @@ const App = () => {
           <h2 className="generator__header">
            Password Generator
           </h2>
-          <div className="generator__password">
+          <div className="generator__password" style={{'borderRadius':"5px"}}>
             <h3 >{password}</h3>
             <button className="copy__btn">
               <i onClick={handleCopyPassword} className="far fa-clipboard"></i>
